@@ -64,3 +64,14 @@
   border-style: solid;
   border-color: #666 transparent;
 }
+
+.circle {
+  background-color: #333;
+  border: 7px solid #afe235;
+  border-radius: 22px;
+  height: 15px;
+  width: 15px;
+  position:relative;
+  top: 4%;
+  left: 1.5%;
+}
