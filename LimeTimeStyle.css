@@ -1,0 +1,66 @@
+#limetime {
+	background: #333;
+	width:100%;
+	height:610px;
+	position: relative;
+}
+
+.arrow {
+	height: 64px;
+	width: 4.5%;
+	overflow: auto;
+ 	margin: auto;
+  	position: absolute;
+	bottom: 0; 
+	top: 0; 
+}
+
+.left {
+	background: url('assets/arrow-left.png') center rgba(255,255,255,0.5) no-repeat;
+	left: 0; 
+	right: auto;
+	cursor: pointer;
+}
+
+.right {
+	background: url('assets/arrow-right.png') center rgba(255,255,255,0.5) no-repeat;
+	left: auto; 
+	right: 0;
+	cursor: pointer;
+}
+
+#timeline {
+	width:91%;
+	height:7px;
+	background:#afe235;
+	overflow: auto;
+ 	margin: auto;
+  	position: absolute;
+	bottom: 0; 
+	top: 0; 
+	left: 0; 
+	right: 0;
+}
+
+.popover{
+	width:14%;
+	background:#666;
+	color:#fff;
+	font-family: "Tahoma";
+	font-size:0.8em;
+	height:100px;
+	padding:5px;
+	position: relative;
+}
+
+.popover:after {
+  content: "";
+  display: block; 
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #666 transparent;
+}
